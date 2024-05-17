@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>image tag</title>
+    <link rel="stylesheets" href="./style.css">
+    <style>
+        p{
+            color: red;
+            font-size: 25px;
+            background-color: black;
+        }
+    </style>    
+</head>
+<body>
+     <p>CSS- cascading style sheets
+
+        To make webpages attractive
+        
+        Background color, font size, font color, borders, margins, padding,
+        
+        We can css in html page in three ways:
+        
+        1. Inline css: beside html elements we will style
+        
+        2. Internal css: we will add style tag in head
+        
+        3. External css: we create new css file and add in html using link</p>
+</body>
+</html>
