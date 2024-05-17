@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Html list tag</title>
+</head>
+<body>
+    <ol>
+    <h2>SOFTWARE COMPANIES</h2><br>
+    <li> NS TECHNO SOFT</li><br>
+    <li> MICRO SOFT</li><br>
+    <li> TCS </li><br>
+    <li> WIPRO </li>
+    </ol>
+    <h2>  IT SECTORS </h2>
+    <ul>
+        <li> IT </li><br>
+        <li> NON-IT</li><br>
+        <li>Health care sector</li><br>
+        <li> BPO</li><br>
+        <ul><br><br>
+    <dl>
+        <dt>NS TECHNO SOFT</dt>
+        <dd> NS Technologies Pvt Ltd. Software Development. NS Soft Inc. IT Services and IT Consulting. Farmington hills ...</dd>
+        <dt>IT</dt>
+        <dd>Industrial training institutes (ITI) and industrial training centers (ITC) is a qualification and are post-secondary schools in India constituted under the Directorate General of Training (DGT), Ministry of Skill Development and Entrepreneurship, Union Government, to provide training in various trades.</dd>
+    </dl>        
+</body>
+</html>
