@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Anchor tag</title>
+</head>
+<body>
+    <a 
+    href="https://www.google.com/search?q=java+script&rlz=1C1RXQR_enIN1096IN1097&oq=java+script&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgKGIAEMgkIAhAAGAoYgAQyCQgDEAAYChiABDIJCAQQABgKGIAEMgkIBRAAGAoYgAQyCQgGEAAYChiABDIJCAcQABgKGIAEMgkICBAAGAoYgAQyCQgJEAAYChiABNIBCDUzMzVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8"
+    target="_blank"> java script</a>
+</body>
+</html
