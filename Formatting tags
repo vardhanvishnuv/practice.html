@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Formatting tags</title>
+</head>
+<body>
+    <p><b>vishnu vardhan</b></p><br>
+    <p><i>helo guys</i></p><br>
+    <p><strong>web development</strong>hypertext markup language</p><br>
+    <p><em>Web- if we work </em>over the internet</p><br>
+    <p><u>IDE: sublime, Notepad++, Visual code</u></p><br>
+    <p><mark>IDE: sublime, Notepad++, Visual code</mark> hypertext markup language</p><br>
+    <p><strike> sublime, Notepad++, Visual code</strike> Frontend Development : HTML CSS, JavaScript, ReactJS, GIT, JQuery</p><br>
+    <p>2<sub>6</sub></p><br>
+    <p>3<sup>7</sup></p><br>
+    <p><ins> sublime, Notepad++, Visual code</ins></p><br>
+    <p><del> sublime, Notepad++, </del>Visual code</p><br>
+    <p><small>Frontend Development : HTML CSS, JavaScript, ReactJS, GIT, JQuery</small></p><br>
+    <p><big>Frontend Development : HTML CSS, JavaScript, ReactJS, GIT, JQuery</big></p><br>
+</body>
+</html>
