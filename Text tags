@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Text tags</title>
+</head>
+<body>
+    <p> Development – to develop anything from scratch then it is known as development.</p><br>
+    <p><strong> vishnu vardhan</strong>formatting tags</p><br>
+    <p><em> Frontend Development : </em>  HTML CSS, JavaScript, ReactJS, GIT, JQuery </p><br>
+    <p><abbr>HTML</abbr>Hypertext Markup Language</p><br>
+    <p><acronym>We can create own website.</acronym></p><br>
+    <p><address>
+        to visit the banglore to contact this mobile number
+        contact no: 73375057
+    </address></p><br>
+    <p><q>Hypertext </q>à defines the link between the webpages</p><br>
+    <p><code>
+        {
+            public void main(string{}){
+                system.out.println:(hello guys)
+            }
+        }
+    </code></p><br>
+    <p><ins>CSS- cascading style sheets</ins></p><br>
+    <p><del>CSS- cascading </del>style sheets</p><br>
+    <p><kbd>shift</kbd>+<kbd>ctrl</kbd> d is bookmarks bar new folder</p>
+</body>
+</html>
