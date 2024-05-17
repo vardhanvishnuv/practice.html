@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>form</title>
+</head>
+<body>
+    <form>
+        enter your  first name
+        <input type="text" name="firstname"><br>
+        <br>
+        enter your last name
+        <input type="text" name="lastname"><br>
+        <h2>text area</h2>
+        <textarea row="30" columns="40">web development</textarea><br>
+        <br>
+        <h2>label</h2>
+        <label for="firstname">firstname</label><br>
+        <input type="text" id="firstname" placeholder="firstname"><br>
+        <label for="lastname">lastname</label><br>
+        <input type="text" id="lastname" name="lastname"><br>
+        <h2>fieldset</h2>
+        <fieldset>
+        <legend> PERSONAL INFORMATION :</legend><br>
+        <lable for="name"> enter name:</lable><br>
+        <input type="text" id="name" name="name"><br>
+        <lable for="password">enter password</lable><br>
+        <input type="password" id="password" name="password"><br>
+        </fieldset>
+    </form>
+</body>
+</html>
