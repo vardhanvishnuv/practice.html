@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>student marks</title>
+</head>
+<body>
+    <h2>VISHNU VARDHAN 10TH CLASS MARKS</h2>
+    <table border="1" style="border-collapse: collapse;" width="400"  height="300">
+        
+        <tbody
+        <tr>
+            <th>S.NO</th>
+            <th>subjects</th>
+            <th>marks</th>
+        </tr>
+        </tbody>
+        <tr>
+            <th>1</th>
+            <th>Telugu</th>
+            <th>81</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>English</th>
+            <th>83</th>
+        </tr>
+        <tr>
+            <th>3</th>
+            <th>Mathamatics</th>
+            <th>98</th>
+        </tr>
+        <tr>
+            <th>4</th>
+            <th>P.S</th>
+            <th>89</th>
+        </tr>
+        <tr>
+            <th>5</th>
+            <th>N.S</th>
+            <th>60</th>
+        </tr>
+        <tr>
+            <th>6</th>
+            <th>social</th>
+            <th>87</th>
+        </tr>
+        <tfoot>
+            <tr>
+                <th></th>
+                <th>Total</th>
+                <th>498</th>
+            </tr>
+        </tfoot>
+    </table>    
+</body>
+</html>
