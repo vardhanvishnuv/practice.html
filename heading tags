@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>heading tags</title>
+</head>
+<body>
+    <h1>web development</h1><br>
+    <h2>web development</h2><br>
+    <h3>web development</h3><br>
+    <h4>web development</h4><br>
+    <h5>web development</h5><br>
+    <h6>web development</h6><br>
+</body>
+</html>
