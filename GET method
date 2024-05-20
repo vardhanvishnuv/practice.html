@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>GET method</title>
+</head>
+<body>
+    <form method="get" action="www.programiz.com/search">
+        <input type="search" name="location" placeholder="Search." />
+        <input type="submit" value="Go" />
+    </form>
+</body>
+</html>
