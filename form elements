@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>form elements</title>
+</head>
+<body>
+    <form>
+        <label for="name"> name :</label>
+        <input type="text" id="name" value="name"><br>
+        <lable for="sex">sex :</lable><br>
+        <input type="radio" name="sex" id="male" value="male">
+        <label for="male">male</label>
+        <input type="radio" name="sex" id="female" value="female">
+        <lable for="female">female</lable><br>
+        <lable for="country">country</lable>
+        <select name="country" id="country">
+            <option>select an option</option>
+            <option value="INDIA">INDIA</option>
+            <option value="ENGLAND">ENGLAND</option>
+            <option value="sri lanka">sri lanka</option>
+        </select><br><br>
+        <label for="message">message</label><br>
+        <textarea name="message" id="message" col="40" row="5"></textarea><br>
+        <input type="checkbox" name="confirm" id="confirm">
+        <label for="confirm">confirm</label><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
+
