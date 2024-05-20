@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    <h1>HTML image</h1><br>
+    <p> HTML images are defined with the img tag </p>
+    
+    <img src="https://www.dewildliferescue.com/wp-content/uploads/2022/12/RedFox.StephanieFaustPhotography.jpeg" alt="fox" width="350" height="400">
+
+</body>
+</html>
