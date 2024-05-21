@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>audio</title>
+</head>
+<body>
+    <audio controls>
+        <source src="./Dekhha Tenu Mr And Mrs Mahi 128 Kbps.mp3" type="audio/mp3">
+    </audio>    
+</body>
+</html>
