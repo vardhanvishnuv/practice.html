@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+    {
+        box-sizing: border-box;
+    }
+    body{
+        font-family:'Courier New', Courier, monospace;
+    }
+    header{
+        background-color: aquamarine;
+        padding: 35px;
+        text-align: center;
+        font-size: 30px;
+    }
+    nav{
+        background-color: azure;
+        padding: 35px;
+        width: 30%;
+        float: left;
+        height: 400px;
+    }    
+    nav ul{
+        list-style-type: none;
+        padding: 0px;
+    }
+    article{
+        background-color: aquamarine;
+        padding: 35px;
+        width: 70%;
+        height: 400px;
+        float: left;
+    }
+    section: :after{
+         content: " ";
+        display: table;
+        clear: both;
+    }
+footer{
+    background-color: bisque;
+    padding: 35px;
+    text-align: center;
+}  
+@media(max-width: 600px){
+    nav,article{
+        width: 100;
+        height: auto;
+    }
+}     
+ </style>
+</head>
+<body>
+    <h1> out look</h1>
+    <h2>new look</h2>
+    <p>Checking the network cables, modem, and router
+        Reconnecting to Wi-Fi
+        Running Windows Network Diagnostics
+        ERR_INTERNET_DISCONNECTED</p>
+<header>
+    <h2>nothing</h2>
+</header>
+<section>
+    <nav>
+        <ul>
+            <li><a href="#">what</a></li>
+            <li><a href="#">when</a></li>
+            <li><a href="#">why</a></li>
+        </ul>
+    </nav>
+<article>
+    <h1> news</h1>
+    <p>>Checking the network cables, modem, and router
+        Reconnecting to Wi-Fi
+        Running Windows Network Diagnostics
+        ERR_INTERNET_DISCONNECTED</p>
+    <p>>Checking the network cables, modem, and router
+       Reconnecting to Wi-Fi
+       Running Windows Network Diagnostics
+        ERR_INTERNET_DISCONNECTED</p> 
+        <p>>Checking the network cables, modem, and router
+            Reconnecting to Wi-Fi
+            Running Windows Network Diagnostics
+            ERR_INTERNET_DISCONNECTED</p>       
+</article>    
+</section>    
+<footer>
+    <p> murder</p>
+</footer>    
+</body>
+</html>
