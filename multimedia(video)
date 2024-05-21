@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>video</title>
+</head>
+<body>
+    <video width="350" height="350" controls>
+        <source src="./vecteezy_happy-birthday-greeting-in-2d-animation-format_3321328.mp4" type="video/mp4">
+    </video>
+</body>
+</html
