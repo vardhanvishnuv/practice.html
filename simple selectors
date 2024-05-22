@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>simple selectors</title>
+    <style> /* css style */
+    h1{
+        color: blanchedalmond;
+        background-color: black;
+    }
+    h2{
+        color: lime;
+        background-color: blue;
+    }
+    .vishnu{
+        color: darkgrey;
+        background-color: darkorange;
+    }
+    #vardhan{
+        color: greenyellow;
+        background-color: coral;
+    }
+    </style>
+</head>
+<body>
+    <h1>SIMPLE SELECTORS</h1>
+    <h2>Font loading times are increasingly crucial, impacting page rankings and visitor experiences. Learn how to optimize your font performance and enhance overall web page quality.</h2><br><br>
+    <br>
+    <div class=vishnu>
+        Font loading times are increasingly crucial, impacting page rankings and visitor experiences. Learn how to optimize your font performance and enhance overall web page quality.
+    </div><br><br>
+    <br>
+    <div id=vardhan>
+        Font loading times are increasingly crucial, impacting page rankings and visitor experiences. Learn how to optimize your font performance and enhance overall web page quality.
+    </div>
+</body>
+</html>
