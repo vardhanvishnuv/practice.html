@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>inline</title>
+</head>
+<body>
+    <p>This is how <span style="border: 1px solid black">span</span> works. </p>
+</body>
+</html>
