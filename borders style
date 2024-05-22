@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>borders</title>
+    <p>borders</p>
+</head>
+<body>
+    <h1 style="border:dotted; border-width: 4px">vishnu vardahn</h1>
+    <h2 style="border:double; border-width: 4px 5px 9px 10px">vishnu vardhan</h2>
+    <h2 style="border:dashed; border-width: 8px; border-color: red" >vishnu vardhan</h2>
+    <h2 style="border:solid; border-color:blue pink  green yellow">vishnu vardhan</h2>
+    <h2 style="border:groove; border-radius: 8px 7px 9px 2px;">vishnu vardhan</h2>
+    <h2 style="border:ridge">vishnu vardhan</h2>
+    <h2 style="border:inset">vishnu vardhan</h2>
+    <h2 style="border:outset">vishnu vardhan</h2>
+    <h2 style="border:none">vishnu vardhan</h2>
+    <h1 style="border-top-style:solid; border-bottom-style: dashed; border-left-style:double ; border-right-style:groove; border-width: 4px">vishnu vardahn</h1>
+</body>
+</html>
