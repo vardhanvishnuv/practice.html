@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>margin</title>
+<style>
+    div{
+        background-color: gray;
+        margin: 75px;
+        height: 200px;
+        width: 350px;
+        border: 6px double lightseagreen;
+    }
+    h1{
+        margin: 66px;
+    }
+    h2{
+        margin: 59px;
+    }
+</style>
+</head>
+<body>
+    <div>Latest India News, Headlines, Stories and Videos
+        Rediff.com
+        https://www.rediff.com news
+        Rediff News - Delivers most trusted news from India and around the world. Impeccable coverage on society, politics, business, sports and entertainment.
+        </div>
+        <h1>Latest India News, Headlines, Stories and Videos
+            Rediff.com
+            https://www.rediff.comnews
+            Rediff News - Delivers most trusted news from India and around the world. Impeccable coverage on society, politics, business, sports and entertainment.
+            </h1>
+            <h2>Latest India News, Headlines, Stories and Videos
+                Rediff.com
+                https://www.rediff.comnews
+                Rediff News - Delivers most trusted news from India and around the world. Impeccable coverage on society, politics, business, sports and entertainment.
+                </h2>
+</body>
+</html>
