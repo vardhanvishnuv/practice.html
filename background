@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>background</title>
+    <style>
+        body{
+            background-image: url("download-SPIDERMAN.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: right bottom;
+        }
+        h1{
+            color: blanchedalmond;
+            background-color: black;
+            opacity: 0.4;
+        }
+        h2{
+            color: yellowgreen;
+        }
+        .vvv{
+                color: lightcoral;
+        }
+    </style> 
+</head>
+<body>
+    <h1>vishnu vardhan</h1>
+    <h2>vardhan vishnu</h2>
+    <div class="vvv">
+        vemu vishnu vardhan
+    </div>
+</body>         
+</html>
