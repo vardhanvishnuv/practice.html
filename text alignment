@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>text alignment</title>
+    <style>
+        h1{
+            text-align: right;
+        }
+        h2{
+            text-align: center;
+        }
+        h3{
+            text-align-last: right;
+        }
+        .one{
+            direction: rtl;
+        }
+        .two{
+            unicode-bidi: bidi-override;
+            direction: rtl;
+        }
+        .three{
+            vertical-align: sub;
+        }
+        .four{
+            vertical-align: text-top;
+        }
+        .five{
+            vertical-align: text-bottom;
+        }
+        .six{
+            vertical-align: super;
+        }
+        .seven{
+            vertical-align: baseline;
+        }
+    </style>
+</head>
+<body>
+   <h1>As some countries ban products by major Indian spice brands, understanding food traceability and how it stops contamination</h1>
+   <h2>As some countries ban products by major Indian spice brands, understanding food traceability and how it stops contamination</h2>
+   <h3>As some countries ban products by major Indian spice brands, understanding food traceability and how it stops contamination</h3>
+   <p class="one">As some countries ban products by major Indian spice brands, understanding food traceability and how it stops contamination</p>
+   <p class="two">theeAs some countries ban products by major Indian spice brands, understanding food tracea</p>
+   <p class="three">the <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm-8Xxr3JYNhCnQaANgtzFv11IsKKZ94-AMA&s"width="50px" height="50px"> some countries </p>
+   <p class="four">the <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm-8Xxr3JYNhCnQaANgtzFv11IsKKZ94-AMA&s"width="50px" height="50px">eAs some countries ban products by major Indian spice brands, understanding food tracea</p>
+   <p class="five">the<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm-8Xxr3JYNhCnQaANgtzFv11IsKKZ94-AMA&s"width="50px" height="50px">eAs some countries ban products by major Indian spice brands, understanding food tracea</p>
+   <p class="six">the<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm-8Xxr3JYNhCnQaANgtzFv11IsKKZ94-AMA&s"width="50px" height="50px">As some countries</p>
+   <p class="seven">the<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm-8Xxr3JYNhCnQaANgtzFv11IsKKZ94-AMA&s"width="50px" height="50px">eAs some countries ban products by major Indian spice brands, understanding food tracea</p>
+</body>
+</html>
