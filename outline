@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>OUTLINE</title>
+    <style>
+        div{
+            width: 250px;
+            height: 250px;
+            background-color: darkslategrey;
+            border: 15px  solid red;
+            margin: 100px 25px 10px 200px;
+            padding: 30px 45px 50px 65px;
+            outline: 25px double red;
+            outline-color:  blue ;
+            outline-width: 50px;
+            outline-style: dotted;
+            outline-offset: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>An element's padding is the space between its content and its border. The padding property is a shorthand property for: padding-top.
+        <br>
+        <br>
+        An element's padding is the space between its content and its border. The padding property is a shorthand property for: padding-top.
+    </div>
+</body>
+</html>
