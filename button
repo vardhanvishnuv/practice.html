@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> button </title>
+    <script>
+     function speak() {
+            alert('Hello')
+        }
+    </script>    
+</head>
+<body>
+    <button onclick="speak( )">Click Me</button>
+</body>
+</html>
