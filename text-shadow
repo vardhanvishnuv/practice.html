@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>text shadow</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+           body{
+            font-family: "Roboto Mono", monospace;
+           }
+           h1{
+            text-shadow: 0px 0px 5px red, 0px 4px 0px blue, 3px 6px 9px pink;
+           }
+           h2{
+            font-family: "Roboto Mono", monospace;
+            font-size: 30px;
+            font-weight: 300;
+            font-style: oblique;
+            font-variant: small-caps;
+           }
+        </style>
+</head>
+<body>
+    <h1>vishnu vardhan</h1>
+    <h2><code> 
+        public class vishnu{
+            public static void main("string(arg)"){
+                system.out.println ("vishnu vardhan")
+            }
+        }
+    </code></h2>
+</body>
+</html>
