@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>Legend Tag</title>  
+</head>  
+<body>  
+ <h1> Legend Tag</h1>   
+ <form>  
+              <fieldset>  
+        <legend>Employee basic information:</legend>  
+        <label>First Name</label><br>  
+        <input type="text" name="firstname"><br>  
+        <label>Last Name</label><br>  
+        <input type="text" name="lastname"><br>  
+        <label>Enter Email</label><br>  
+        <input type="email" name="email"><br>
+        <br>  
+        <input type="Submit"><br>  
+                </fieldset>  
+</form>  
+</body>  
+</html>
