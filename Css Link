@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>css link</title>
+    <style>
+        a{
+            background-color: blueviolet;
+            color: brown;
+            padding: 30px;
+            margin: 25px;
+            border: double 5px yellow;
+             
+        }
+        a:hover{
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1> vishnu vardhan</h1><br>
+    <a href="https://www.youtube.com/watch?v=PAFYr1ratUo"> CSS LINK</a>
+</body>
+</html>
