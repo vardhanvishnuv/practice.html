@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>clear</title>
+    <style>
+        .one{
+            float: left;
+            border: 5px dotted blue;
+            padding: 15px;
+        }
+        .two{
+            padding: 10px;
+            border: 5px solid greenyellow;
+        }
+        .three{
+            float:left;
+            border: 5px dashed orangered;
+            padding: 10px;
+        }
+        .four{
+            border: 4px inset yellow;
+            padding: 10px;
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>without clear</h1>
+    <div class="one">A good example </div>
+    <div class="two">A good example of a paragraph contains a topic sentence, details and a conclusion. 'There are many different kinds of animals that live in China. Tigers and leopards are animals that live in China's forests in the north. In the jungles, monkeys swing in the trees and elephants walk through the brush.</div><br><br><br><br><br>
+    <br><br>
+    <h2>with clear</h2>
+    <div class="three">A good </div>
+    <div class="four">A good example of a paragraph contains a topic sentence, details and a conclusion. 'There are many different kinds of animals that live in China. Tigers and leopards are animals that live in China's forests in the north. In the jungles, monkeys swing in the trees and elephants walk through the brush.</div>
+
+</body>
+</html>
