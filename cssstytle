@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>css</title>
+    <link rel="stylesheet" href="/.styles.css">
+    <style>
+     p{
+        background-color: chartreuse;
+        color: brown;
+        font-size: 25px;
+     }
+     p:hover{
+        background-color: cornflowerblue;
+        color: darkolivegreen;
+     }
+     h1{
+        color: darkorange;
+        background-color: darkgreen;
+        width: 50px;
+     }
+     h1:hover{
+        background-color: aqua;
+        color: blue;
+     }
+    </style>      
+</head>
+<body>
+    <h1>css</h1>
+    <p><th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.<th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.<th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.</p>
+        <p><th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.<th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.<th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.</p>
+            <p><th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.<th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.<th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.</p><br><br>
+                <br><br><br>
+                <p><th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.<th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.<th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.</p>
+                    <p><th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.<th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.<th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.</p>
+                        <p><th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.<th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.<th> tag is used to give header in the cell of a table in HTML whereas <thead> tag is used to give the header of a group of a table.</p>
+</body>
+</html>
