@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>1. Descendant selectors </title>
+    <style>
+        
+        div p{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+     <p>vishnu vardhan</p>
+     <p>vishnu vardhan</p>
+     <p>vishnu vardhan</p>
+     <div>
+        <p>vishnu vardhan</p>
+     </div>
+     <p>vishnu vardhan</p>
+     <p>vishnu vardhan</p>
+     <p>vishnu vardhan</p>
+
+     <div>
+        <p>vishnu vardhan</p>
+    </div>
+    <p>vishnu vardhan</p>
+    <p>vishnu vardhan</p>
+    <p>vishnu vardhan</p>
+</body>
+</html>
