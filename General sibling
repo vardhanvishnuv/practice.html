@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>4. General sibling </title>
+    <style>
+        
+        div~p{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+     <p>vishnu vardhan</p>
+     <p>vishnu vardhan</p>
+     <p>vishnu vardhan</p>
+     <div>
+        <p>vishnu vardhan</p>
+        <selection>vardhan vishnu</selection>
+     </div>
+     <p>vishnu vardhan</p>
+     <p>vishnu vardhan</p>
+     <p>vishnu vardhan</p>
+
+     <div>
+        <p>vishnu vardhan</p>
+    </div>
+    <p>vishnu vardhan</p>
+    <p>vishnu vardhan</p>
+    <p>vishnu vardhan</p>
+    <div>
+        <p> vishnu vardhan</p>
+    </div>
+    <p>vishnu vardhan</p>
+    <p>vishnu vardhan</p>
+    <p>vishnu vardhan</p>
+</body>
+</html>
