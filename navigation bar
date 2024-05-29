@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Navigation Bar</title>
+    <style>
+        ul{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+            display: block;
+        }
+        li{
+            display: inline-flex;
+        }
+        li a{
+                color: blue;
+                padding: 10px;
+                text-decoration: none;
+        }
+        li a.active{
+            background-color: darkgoldenrod;
+            color: chartreuse;
+        }
+        li a:hover:not(.active){
+            background-color: cornflowerblue;
+            color: darkorange;
+        }
+        li a.contact{
+            color: chartreuse;
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <h1>Navigation Bar</h1>
+    <ul> 
+        <li><a class="active" href="active">active</a> </li>
+        <li><a href="#about">about</a></li>
+        <li><a class="contact" href="contact">contact</a></li>
+    </ul>
+</body>
+</html>
