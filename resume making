@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>resume</title>
+    <style>
+        h1{
+            text-align: center;
+            font-size: 60px;
+        }
+        h2{
+            font-size: 20px;
+            margin: 20px;
+        }
+        .one{
+            height:150px;
+            margin: 20px;
+            float: left;
+            border: 4px solid white;
+            font-size: 24px;
+        }
+        .two{
+            width:70%;
+            float: left;
+            padding: 8px;
+            margin: 6px;
+            font-size:18px;
+        }
+        .three{
+            float: right;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>vishnu vardhan</h1>
+    <h2>gmail- vardhanvishnu4992@gmmail.com</h2>
+    <h2>ph no :- 7337505750</h2>
+    <hr>
+    <form>
+    <div class="one">OBJECTIVE 
+        <p>As a Recent Graduate, I am seeking a role which allows 
+            me to continue learning and perfecting my skills as I 
+            provide high quality work, and encourages me to flourish 
+            as a network technician.</p>
+    </div>
+    <div class="two">EDUCATION
+        <p>Rao's Degree College, Nellore.<br>
+            year of passing : 2022<br>
+            Course: BCA<br>
+            Aggregate: 86.5%
+            </p>
+            <p>Guthikonda sree ramulu junior College, Buchireddy palem.<br>
+                Year of Passing: 2019<br>
+                Course: MPC<br>
+                Aggregate: 8.15%
+            </p>
+            <p>ZPPH School, Siddanakonduru, SPSR Nellore.<br>
+                Year of Passing: 2017<br>
+                Course: SSC<br>
+                Aggregate: 7.8% 
+            </p>
+    </div>
+    <nav>
+    <dt>PERSONAL SKILLS</dt>
+    <dd>
+        <li> Communication</li>
+        <li>Patience </li>
+        <li>Co-ordination</li> 
+        <li>Creativity and problem solving skills</li> 
+        <li>self motivated</li>  
+        <li>Confidence</li>
+        <li>Quick learne</li> 
+        <li> Typing skills </li>
+    </dd>
+    <dl>
+        <dt>HOBIES</dt>
+        <dd><li>playing cricket</li></dd>
+        <dd><li>social activities</li></dd>
+    </dl></nav>
+    <div class="three">DECLARATION
+        <p>I here by declare that the above furnished details 
+            are correct to the best of my knowledge and 
+            belief.
+            </p>
+    </div>
+    </form>
+</body>
+</html>
