@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>box shadow</title>
+    <style>
+        div{
+            background-color: chocolate;
+            width: 300px;
+            height: 300px;
+            box-shadow: 8px 8px 8px blue, 12px 12px 12px red, 20px 20px 20px green;
+        }
+    </style>
+</head>
+<body>
+    <div class="vvv">hi this is vishnu vardhan</div>
+</body>
+</html>
