@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>practice</title>
+    <style>
+        h1::first-letter{
+            color: chartreuse;
+            padding: 16px;
+            margin: 4px 3px 6px 10px;
+            border: 10px dashed greenyellow;
+            font-size: 50px;
+            text-transform: lowercase;
+        }
+        h1{
+            text-align: center;
+        }
+        .one{
+            padding: 30px;
+            border: 4px solid blue;
+            float: left;
+        }
+        .two{
+            padding: 19px;
+            border: 5px solid yellowgreen;
+        }
+        .three{
+            padding: 19px;
+            border: 5px solid orange;
+            float: left;
+        }
+        .four{
+            padding: 17px;
+            border: 7px solid violet;
+            clear: both;
+        }
+        img{
+            opacity: 0.1;
+        }
+        img:hover{
+            opacity: 1.8;
+        }
+        h2{
+            background-color: darkcyan;
+            color: navajowhite;
+            padding:50px;
+            margin:10px 15px 10px 20px;
+            border:  20px  yellow;
+            border-style:inset
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>vishnu vardhan</h1>
+    <h2>web design, web publishing, web programming and database management. Web- if we work over the internet Development to develop anything from scratch then it is known as development.</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3mzW1I8qcX889__w3vtt6E3XL0BhURTCzcw&s">
+    <p>web design, web publishing, web programming and database management. Web- if we work over the internet Development to develop anything from scratch then it is known as developmentweb design, web publishing, web programming and database management. Web- if we work over the internet Development to develop anything from scratch then it is known as development</p>
+    <div class="one">web design</div>
+    <div class="two"> web publishing, web programming and database management web publishing, web programming and database management web publishing, web programming and database management</div><br><br>
+    <br><br>
+    <div class="three">web design</div>
+    <div class="four"> web publishing, web programming and database management web publishing, web programming and database management</div>
+</body>
+</html>
