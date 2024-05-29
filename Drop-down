@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>dropdown</title>
+    <style>
+        .dropbtn{
+            background-color: aqua;
+            color: blueviolet;
+            padding: 10px;
+            border: 4px solid greenyellow;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        names{
+            position: absolute;
+            background-color: chocolate;
+            min-width: 180px;
+            z-index: 1;
+            display: none;
+            box-shadow: 0 8px 18px lightpink
+        }
+        .names a{
+            color: chartreuse;
+            padding: 15px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .names a:hover{
+            background-color: darkorange;
+        }
+        .dropdown:hover .names{
+            display: block;
+        }
+        .dropdown:hover .dropbtn{
+            background-color: lawngreen;
+        }
+    </style>
+</head>
+<body>
+    <h1> dropdown</h1>
+    <div class="dropdown">
+    <button class="dropbtn">countries</button>
+    <div class="names">
+        <a href="#">india</a>
+        <a href="#">usa</a>
+        <a href="#">sri lanka</a>
+        <a href="#">africa</a>
+        <a href="#">pak</a>
+</body>
+</html>
