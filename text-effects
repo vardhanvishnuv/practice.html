@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>text-effects</title>
+    <style>
+        div{
+            background-color: red;
+            width: 150px;
+            height: 250px;
+            text-overflow: clip;
+            overflow: hidden;
+            word-wrap: break-word;
+            writing-mode: horizontal-tb;
+            word-break: keep-all;
+        }
+        h1{
+           white-space: nowrap;
+           border: 4px solid grey;
+           width: 150px;
+           text-overflow: ellipsis;
+           overflow:hidden;
+        }
+    </style>
+</head>
+<body>
+    <h2>text-effects</h1>
+    <div>
+      <p>with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address. Content within each  should indicate the link's destination.with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address. Content within each  should indicate the link's destination.</p>
+    </div><br><br>
+    <br>
+  
+    <h1>with its href attribute, creates a hyper link to web page, files, email address, location in the same page or anything else a uurl</h1>
+
+</body>
+</html>
