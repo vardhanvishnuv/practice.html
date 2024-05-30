@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>gardiant</title>
+    <style>
+        div{
+            background-color: gold;
+            width: 650px;
+            height: 650px;
+        }
+        .linear{
+            background-image: linear-gradient( red, blue, green,pink,orange );
+        }
+        .radial{
+            background-image: radial-gradient(orange, darkblue, white,grey);
+        }
+        .conic{
+            background-image: conic-gradient(orange 7deg,darkblue 140deg,white 40deg,grey)
+        }
+    </style>
+</head>
+<body>
+    <h1>gardiantt</h1>
+    <div>
+
+    </div>
+    <h3>linear</h3>
+    <div class="linear">linear</div>
+    <h4>radial</h4>
+    <div class="radial">radial</div>
+    <h3>conic</h3>
+    <div class="conic">conic</div>
+</body>
+</html>
