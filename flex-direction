@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>flex-direction</title>
+    <style>
+     .f-direction{
+        display: flex;
+        background-color: yellow;
+        flex-direction: column-reverse;
+     }
+     .f-direction>div{
+        background-color: greenyellow;
+        padding: 15px;
+        margin: 25px;
+        font-size: 16px;
+        width: 20p;
+     }
+     .flexdirection{
+        display: flex;
+        background-color: yellow;
+        flex-direction: row-reverse;
+     }
+     .flexdirection>div{
+        background-color: greenyellow;
+        padding: 15px;
+        margin: 25px;
+        font-size: 16px;
+        width: 20p;
+     }
+     .fldirection{
+        display: flex;
+        background-color: yellow;
+        flex-direction: column;
+     }
+     .fldirection>div{
+        background-color: greenyellow;
+        padding: 15px;
+        margin: 25px;
+        font-size: 16px;
+        width: 20p;
+     }
+     .fledirection{
+        display:flex;
+        background-color: yellow;
+        flex-direction: row;
+     }
+     .fledirection>div{
+        background-color: greenyellow;
+        padding: 15px;
+        margin: 25px;
+        font-size: 16px;
+        width: 20p;
+     }
+    </style>
+</head>
+<body>
+    <h1>flex-direction</h1>
+    <div class="f-direction">
+      <div>vishnu</div>
+      <div>vardhan</div>
+      <div>vemu</div>
+      <div>bharghav</div>
+      <div>jeevansh</div>
+    </div>
+    <hr>
+    <div class="flexdirection">
+        <div>vishnu</div>
+      <div>vardhan</div>
+      <div>vemu</div>
+      <div>bharghav</div>
+      <div>jeevansh</div>
+    </div>
+    <hr><hr>
+    <div class="fldirection">
+    <div>vardhan</div>
+    <div>vemu</div>
+    <div>bharghav</div>
+    <div>jeevansh</div>
+</div><hr><hr><hr>
+<div class="fledirection">
+    <div>vishnu</div>
+    <div>vardhan</div>
+    <div>vemu</div>
+    <div>bharghav</div>
+    <div>jeevansh</div>
+</div>
+    
+</body>
+</html>
