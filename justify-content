@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>justify-content</title>
+<style>
+    .flow{
+      display: flex;
+      background-color: yellow;
+      justify-content:center;
+    }
+    .flow>div{
+        background-color: green;
+        padding:30px;
+        margin:20px;
+        font-size: 20px;
+        width:100px;
+    }
+    .start{
+      display: flex;
+      background-color: yellow;
+      justify-content:flex-start;
+    }
+    .start>div{
+        background-color: green;
+        padding:10px;
+        margin:30px;
+        font-size: 30px;
+        width:100px;
+        text-align: center;
+    }
+    .end{
+      display: flex;
+      background-color: yellow;
+      justify-content:flex-end;
+    }
+    .end>div{
+        background-color: green;
+        padding:10px;
+        margin:30px;
+        font-size: 30px;
+        width:100px;
+        text-align: center;
+    }
+    .sparound{
+      display: flex;
+      background-color: yellow;
+      justify-content:space-around;
+    }
+    .sparound>div{
+        background-color: green;
+        padding:10px;
+        margin:30px;
+        font-size: 30px;
+        width:100px;
+        text-align: center;
+    }
+    .spbtween{
+      display: flex;
+      background-color: yellow;
+      justify-content:space-between;
+    }
+    .spbtween>div{
+        background-color: green;
+        padding:10px;
+        margin:30px;
+        font-size: 30px;
+        width:100px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <div class="flow">
+        <div>vishnu</div>
+        <div>vardhan</div>
+        <div>vvv</div>
+        <div>vemu</div>
+    </div>   
+    <hr>
+    <div class="start">
+        <div>vishnu</div>
+        <div>vardhan</div>
+        <div>vvv</div>
+        <div>vemu</div>
+    </div> 
+    <hr>
+    <div class="end">
+        <div>vishnu</div>
+        <div>vardhan</div>
+        <div>vvv</div>
+        <div>vemu</div>
+    </div> 
+    <hr>
+    <div class="sparound">
+        <div>vishnu</div>
+        <div>vardhan</div>
+        <div>vvv</div>
+        <div>vemu</div>
+    </div>
+    <hr>
+    <div class="spbtween">
+        <div>vishnu</div>
+        <div>vardhan</div>
+        <div>vvv</div>
+        <div>vemu</div>
+    </div>
+</body>
+</html>
