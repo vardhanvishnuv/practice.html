@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>align-text</title>
+<style>
+    .align{
+      display: flex;
+      background-color: yellow;
+      align-items: baseline;
+      height: 340px;
+    }
+    .align>div{
+        background-color: green;
+        padding:30px;
+        margin:20px;
+        font-size: 20px;
+        width:100px;
+    }
+</style>
+</head>
+<body>
+    <div class="align">
+        <div>vishnu</div>
+        <div>vardhan</div>
+        <div>vvv</div>
+        <div>vemu</div>
+        <div>vishnu</div>
+    </div>
+</body>
+</html>
