@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>flex-wrap</title>
+    <style>
+     .wrap{
+        display: flex;
+        background-color: yellow;
+        flex-wrap: wrap;
+     }
+     .wrap>div{
+        background-color: greenyellow;
+        padding: 15px;
+        margin: 25px;
+        font-size: 16px;
+        width: 20p;
+     }
+     .fwrap{
+        display: flex;
+        background-color: yellow;
+        flex-wrap: wrap-reverse;
+     }
+     .fwrap>div{
+        background-color: greenyellow;
+        padding: 15px;
+        margin: 25px;
+        font-size: 16px;
+        width: 20p;
+     }
+     .flexwrap{
+        display: flex;
+        background-color: yellow;
+        flex-wrap: nowrap;
+     }
+     .flexwrap>div{
+        background-color: greenyellow;
+        padding: 15px;
+        margin: 25px;
+        font-size: 16px;
+        width: 20p;
+     }
+    </style>
+</head>
+<body>
+    <h1>flex-direction</h1>
+    <div class="wrap">
+      <div>vishnu</div>
+      <div>vardhan</div>
+      <div>vemu</div>
+      <div>bharghav</div>
+      <div>jeevansh</div>
+      <div>vishnu</div>
+      <div>vardhan</div>
+      <div>vemu</div>
+      <div>bharghav</div>
+      <div>jeevansh</div>
+      <div>vishnu</div>
+      <div>vardhan</div>
+      <div>vemu</div>
+      <div>bharghav</div>
+      <div>jeevansh</div>
+    </div>
+    <hr>
+    <div class="fwrap">
+        <div>vishnu</div>
+      <div>vardhan</div>
+      <div>vemu</div>
+      <div>bharghav</div>
+      <div>jeevansh</div>
+      <div>vishnu</div>
+      <div>vardhan</div>
+      <div>vemu</div>
+      <div>bharghav</div>
+      <div>jeevansh</div>
+      <div>vishnu</div>
+      <div>vardhan</div>
+      <div>vemu</div>
+      <div>bharghav</div>
+      <div>jeevansh</div>
+    </div>
+    <hr><hr>
+    <div class="flexwrap">
+    <div>vardhan</div>
+    <div>vemu</div>
+    <div>bharghav</div>
+    <div>jeevansh</div>
+    <div>vishnu</div>
+      <div>vardhan</div>
+      <div>vemu</div>
+      <div>bharghav</div>
+      <div>jeevansh</div>
+</div>
+</body>
+</html>
