@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>flow-shrink</title>
+    <style>
+       .container{
+          display: flex;
+          background-color: yellow;
+       }
+       .container>div{
+        background-color: green;
+        color: blanchedalmond;
+        margin: 20px;
+        padding: 30px;
+        font-size: 20px;
+        width: 70px;
+        align-items: center;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="flex-basis:890px;">vishnu</div>
+        <div>vardhan</div>
+        <div style="flex-basis: 550px;">vemu</div>
+        <div>vvv</div>
+    </div>
+</body>
+</html>
