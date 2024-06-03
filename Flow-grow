@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>flow-grow</title>
+    <style>
+       .container{
+          display: flex;
+          background-color: yellow;
+       }
+       .container>div{
+        background-color: green;
+        color: blanchedalmond;
+        margin: 20px;
+        padding: 30px;
+        font-size: 20px;
+        width: 70px;
+        align-items: center;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="flex-grow: 8;">vishnu</div>
+        <div>vardhan</div>
+        <div style="flex-grow: 5;">vemu</div>
+        <div>vvv</div>
+    </div>
+</body>
+</html>
