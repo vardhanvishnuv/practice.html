@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>align-self</title>
+    <style>
+       .container{
+          display: flex;
+          background-color: yellow;
+          height: 250px;
+       }
+       .container>div{
+        background-color: green;
+        color: blanchedalmond;
+        margin: 20px;
+        padding: 30px;
+        font-size: 20px;
+        width: 70px;
+        align-items: center;
+        line-height: 80px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>vishnu</div>
+        <div style="align-self: center;">vardhan</div>
+        <div>vemu</div>
+        <div>vvv</div>
+    </div>
+</body>
+</html>
