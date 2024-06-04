@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Table practice </title>
+<style>
+    body{
+        color: orangered;
+        text-align: center;
+        font-size: 30px;
+    }
+    table:hover{
+        background-color: green;
+        opacity: 1.1;
+        color: black;
+    }
+</style>
+</head>
+<body>
+
+<table width="100%" border="2" align="center" bgcolor="yellow" style="border-collapse: collapse;" height="300px" >
+
+  <tr>
+    <th>Name</th>
+    <th>City</th>
+    <th>Phone</th>
+  </tr>
+  <tr>
+    <td>vishnu</td>
+    <td>Hyd</td>
+    <td>156980172</td>
+  </tr>
+  <tr>
+    <td>mahendra</td>
+    <td>Ap</td>
+    <td>7258172531</td>
+  </tr>
+  <tr>
+    <td>kondal rao</td>
+    <td>chennai</td>
+    <td>9652381575</td>
+  </tr>
+</table>
+</body>
+</html>
