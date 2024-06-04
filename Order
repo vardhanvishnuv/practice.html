@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>order</title>
+    <style>
+       .container{
+          display: flex;
+          background-color: yellow;
+       }
+       .container>div{
+        background-color: green;
+        color: blanchedalmond;
+        margin: 20px;
+        padding: 30px;
+        font-size: 20px;
+        width: 70px;
+        align-items: center;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="order: 4"> 1</div>
+        <div style="order: 3"> 2</div>
+        <div style="order: 6"> 3</div>
+        <div> 4</div>
+        <div> 5</div>
+        <div style="order:1">6</div>
+    </div>
+</body>
+</html>
