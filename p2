@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>practice</title>
+    <style>
+        body{
+            column-count: 4;
+            column-gap: 50px;
+        }
+        p::first-line{
+            background-color: blue;
+        }
+        p{
+            background-color: chartreuse;
+            opacity: 0.4;
+            color: cadetblue;
+            text-align: center;
+            font-size: 20px;
+
+        }
+        p:hover{
+            background-color: blue;
+            color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <p>Lulu was out for her usual morning walk when she took a wrong turn and found herself in the woods. She tried to retrace her steps, but soon realized she was lost. She began to panic, but then she remembered her training and started using her nose to sniff out a way home. She met all kinds of creatures along the way, but she was too scared to speak to them. Eventually, her nose led her to a house made of dog treats. It looked delicious, but she knew better than to eat anything she found in the woods. Suddenly, an evil witch appeared and tried to trap Lulu in the house. But Lulu was too smart for her and used her nose to find the door and escape. She was finally home safe and sound, and she vowed never to wander off the path again.</p>
+
+</body>
+</html>
