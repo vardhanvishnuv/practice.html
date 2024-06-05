@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Transition</title>
+    <style>
+        div{
+            background-color: yellow;
+            width: 150px;
+            height:150px;
+            transition: width 4s;
+        }
+        div:hover{
+            width: 500px;
+        }
+        .Linear{
+            transition-timing-function: linear;
+        }
+        .ease1{
+            transition-timing-function: Ease;
+        }
+        .ease2{
+            transition-timing-function:Ease-in;
+        }
+        .ease3{
+            transition-timing-function:Ease-out;
+        }
+        .ease4{
+            transition-timing-function:Ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <h1>Linear</h1>
+    <div class="Linear"></div>
+    <h1>Ease</h1>
+    <div class="ease1"></div>
+    <h1>Ease-in</h1>
+    <div class="ease2"></div>
+    <h1>Ease-out</h1>
+    <div class="ease3"></div>
+    <h1>Ease-in-out</h1>
+    <div class="ease4"></div>
+</body>
+</html>
