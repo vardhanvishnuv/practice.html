@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>3D transform</title>
+    <style>
+        div{
+            background-color: yellow;
+            width: 150px;
+            height:150px;
+        }
+        .rotate-x{
+            transform: rotateX(120deg);
+        }
+        .rotate-y{
+            transform: rotateY(120deg);
+        }
+        .rotate-z{
+            transform: rotateZ(145deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>3D Transform</h1>
+    <div> 
+
+    </div>
+    <h1>Roate x</h1>
+    <div class="rotate-x"></div>
+    <h1>Rotate y</h1>
+    <div class="rotate-y"></div>
+    <h1>Roate z</h1>
+    <div class="roate-z"></div>
+</body>
+</html>
