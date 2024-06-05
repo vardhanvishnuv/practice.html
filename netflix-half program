@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>netflix</title>
+    <style>
+     body{
+        background-image:
+        url(https://assets.nflxext.com/ffe/siteui/vlv3/dd4dfce3-1a39-4b1a-8e19-b7242da17e68/86742114-c001-4800-a127-c9c89ca7bbe4/IN-en-20240527-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    }
+    nav .navbar .head{
+  color: red;  
+  font-size: 60px;
+  font-weight: bolder;
+  margin: 0px 0px 0px 100px;
+ }
+     nav .navbar .language  .name{
+        display: none;
+        position: fixed;
+     }
+     .navbar:hover .language .name{
+        display: block;
+        color: grey;
+        background-color: black;
+     }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navbar">  
+            <div class="head">NETFLIX</div> 
+           <div class="language">
+             <button style="background-color: grey; border: 3px solid white;" id="home">
+                <div class="names"> Languages</div>
+                  <div class="name" >
+                    <div><h1>English</h1></div>
+                    <div><h1>Telugu</h1></div>
+                    <div><h1>Hindi</h1></div>
+                  </div>  
+             </button>       
+          </div>
+        </div>
+    </nav>
+</body>
+</html>
