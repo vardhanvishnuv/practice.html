@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>2d transform</title>
+    <style>
+        div {
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+        }
+         .translate{
+            transform: translate(400px, 49px);
+         }
+         .rotate{
+            transform: rotate(57deg);
+         }
+         .scale{
+            transform: scale(2, 1) ;
+         }
+         .scalex{
+            transform: scaleX(5);
+         }
+         .scaley{
+            transform: scaleY(1);
+         }
+         .skew{
+            transform: skew(49deg, 56deg );
+         }
+         .matrix{
+            transform: matrix(3,4,2,4,12,6);
+         }
+    </style>
+</head>
+<body>
+    <h1>2d transform</h1>
+    <div>
+
+    </div>
+    <h1>translate</h1>
+    <div class="translate">
+
+    </div>
+    <h1>Rotate</h1>
+    <div class="rotate">
+
+    </div><br><br><br>
+    <br>
+    <br>
+    <br>
+    <h1>scale</h1>
+    <div class="scale"></div>
+    <h1>scalex</h1>
+    <div class="scalex"></div><br><br>
+    <br>
+    <br>
+    <br>
+    <h1>scaley</h1>
+    <div class="scaley"></div>
+    <h1>skew (x,y)</h1>
+    <div class="skew"></div>
+    <h1>matrix</h1>
+    <div class="matrix"></div>
+</body>
+</html>
