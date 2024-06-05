@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>biriyani making</title>
+      <style>
+        body{
+            background-color: black;
+        }
+        header h1{
+            text-align: center;
+            color: cadetblue;
+            background-color: black;
+            padding: 40px; 
+        }
+         .introduction{
+            background-color: cadetblue;
+            height: 69px;
+            padding: 20px;
+            font-size: 20px;
+         }
+         .ingredients{
+            color: blanchedalmond;
+            display: flex;
+            background-color: cadetblue;
+         }
+        .process{
+            color: blanchedalmond;
+            background-color: cadetblue;
+        }
+        .final{
+            color: blanchedalmond;
+            background-color: cadetblue;
+        }
+        footer{
+            color: blanchedalmond;
+            text-align: center;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Mom's Kitchen
+        </h1>
+    </header>
+      <main>
+        <section class="introduction">
+            <p>
+                Cover and cook on dum/steam for a short time  to infuse  the flavour spicies and herbs. Tada! Your best restauarant style  Chicken Biriyani is ready
+            </p>
+        </section><br>
+        <section class="ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>4 skinless chicken breasts, cut into large chunks.</li>
+                <li>300g basmati rice.</li>
+                <li>25g butter.</li>
+                <li>1 large onion, finely sliced.</li>
+                <li>1 bay leaf.</li>
+                <li>3 cardamom pods.</li>
+                <li>small cinnamon stick.</li>
+                <li>1 tsp turmeric.</li>
+            </ul>
+        </section>
+        <section class="process">
+            <h2>Making process</h2>
+            <p>The traditional process of Chicken Biryani starts by marinating meat in yogurt along with spices and herbs. The raw/uncooked marinated meat is layered at the bottom of a wide pot followed by another layer of par cooked basmati rice, herbs, saffron infused milk, fried onions and ghee or attar (edible essential oil).</p>
+        </section>
+        <section class="final">
+            <h2>Final step</h2>
+            <p>Dhum comes from the test used to show whether it is ready. The chef taps the vessel on the side and if it makes a 'dhum' sound the biryani is ready to be served.</p>
+        </section>
+        <footer>
+            Copy Rights Act 2020
+        </footer>
+      </main>
+</body>
+</html>
