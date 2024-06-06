@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>webpage</title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+        nav .img{
+            margin-top: 10px;
+        }
+        nav .heading{
+            margin: 30px 0px 0px 100px;
+        }
+        nav .about{
+            display: flex;
+            position: fixed;
+            top: 19px;
+            right: 750px;;
+            
+        }
+        nav .service{
+            display: flex;
+            position: fixed;
+            top: 19px;
+            right: 650px;
+        }
+        nav .plan{
+            display: flex;
+            position: fixed;
+            top: 19px;
+            right: 550px;
+        }
+        nav .blog{
+            display: flex;
+            position: fixed;
+            top: 19px;
+            right: 450px;
+        }
+        nav .guide{
+            display: flex;
+            position: fixed;
+            top: 19px;
+            right: 350px;
+        }
+        nav .contact{
+            display: flex;
+            position: fixed;
+            top: 19px;
+            right: 250px;
+        }
+        nav .logo .signin{
+            display: flex;
+            position: fixed;
+            top: 28px;
+            right: 150px;
+        }
+        nav .login{
+            display: flex;
+            position: fixed;
+            top: 19px;
+            right: 100px;
+        }
+        nav .content{
+            display: flex;
+            position: fixed;
+            top: 220px;
+            right: 400px;
+            font-size: 30px;
+            font-weight:500px;
+        }
+        nav .con{
+            display: flex;
+            position: fixed;
+            top: 200px;
+            right: 500px;
+            font-size: 90px;
+            font-weight:500px;
+        
+        }
+        nav .cont{
+            display: flex;
+            position: fixed;
+            top: 380px;
+            right: 470px;
+            font-size: 30px;
+            font-weight:500px;
+        
+        }
+        nav .booknow{
+            display: flex;
+            position: fixed;
+            top: 460px;
+            right: 630px;
+            font-size: 20px;
+            font-weight:500px;
+            background-color: black;
+            color: white;    
+        }
+        footer{
+            font-family: "Oswald", sans-serif;
+            margin: 0px 0px 0px 390px;
+        }  
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="heading">
+        <h1>vishnu vardhan</h1>
+        <p>Personal Life Coach</p>
+        </div>
+        <div class="about">
+            <p>About<p>
+        </div>
+        <div class="service">
+            <p>Services</p>
+        </div>
+        <div class="plan">
+            <p>Plans</p>
+        </div>
+        <div class="blog">
+            <p>Blog</p>
+        </div>
+        <div class="guide">
+            <p>Guides</p>
+        </div>
+        <div class="contact">
+            <p>Contact</p>
+        </div>
+        <div class="logo">
+            <div class="signin">
+                <img src="data:image/png;base64,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" width="30px">
+            </div>
+        </div>
+        <div class="login">
+            <p>Log In</p>
+        </div>
+        <div class="img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREOHF_ngPbw33BlU1uybZv2igSBzrns8cCMw&s" width="1289px" height="700px">
+        </div>
+        <div class="content">
+            <p>AMBITION IS THE FIRST STEP TOWARDS</p>
+        </div>
+        <div class="con">
+            <p>SUCCESS</p>
+        </div>
+        <div class="cont">
+            <p>Now Available for Online Coaching</p>
+        </div>
+
+        <div class="booknow">
+            <p>Book Now</p>
+        </div>
+    </nav>
+    <hr>
+    <footer>
+        The Copyright Act 2019 as amended governs the subject of copyright law in India.
+    </footer>
+</body>
+</html>
