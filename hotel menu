@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>hotel menu</title>
+    <style>
+        .content{
+            margin-top: -670px;
+            font-size: 60px;
+            margin-left: 660px;
+        }
+        .content h{
+            font-size:16px;
+        }
+        .one {
+            font-size: 60px;
+            margin-left: 660px;
+        }
+        .one h1{
+            font-size: 19px;
+        }
+        .two{
+            font-size: 60px;
+            margin-left: 660px;
+        }
+        .two h2{
+            font-size: 19px;
+        }
+        h3{
+            font-size: 50px;
+            margin-top:-690px ;
+        }
+    </style>
+</head>
+<body>
+     <div class="img">
+        <img src="http://wahabali.com/work/pearl-demo/landing-page/images/5.jpg" width="1300px" height="630px">
+     </div>
+     <div class="content">
+        <p>1. Green Bean Salad<br>
+        <h>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h></p>
+     </div>
+     <div class="one">
+        <p>2. Crunchy Ribbon Salad<br><h1>A healthy salad recipe with a light vinegar and oil dressing. Perfect as a side with some roasted meat and garlic bread.</h1></p>
+     </div>
+     <div class="two">
+        <p>3. Quinoa Lentil Salad<br><h2>This lentil quinoa salad is packed with fresh, summery textures and flavors! The zesty dressing pairs perfectly</h2></p>
+     </div>
+     <h3>Venetian Vistas Kitchen</h3>
+</body>
+</html>
