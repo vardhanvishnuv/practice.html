@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>animation 1</title>
+    <style>
+        div{
+            background-color: yellow;
+            width: 150px;
+            height: 150px;
+            animation-name: vishnu;
+            animation-direction: alternate;
+            animation-iteration-count: 6;
+            animation-duration: 5s;
+        }
+        @keyframes vishnu{
+            15%{background-color: green;top: 0px; left: 260px;}
+            35%{background-color: blue; left: 0px; top: 260px;}
+            65%{background-color: pink;left: 260px; top: 260px;}
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div><br>
+    <div class="linear">linear</div>
+    <br>
+    <div class="ease">ease</div>
+    <br>
+    <div class="esae-in">ease-in </div>
+    <br>
+    <div class="ease-out">ease-out</div>
+    <br>
+    <div class="ease-in-out">ease-in-out</div>
+</body>
+</html>
