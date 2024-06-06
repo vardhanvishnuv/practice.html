@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>fresh salad</title>
+    <style>
+        .img{
+            margin-left: 690px;
+            margin-top: 160px;
+        }
+        .matter{
+            margin-top:-400px;
+            margin-left: 100px;
+            font-size: 40px;
+        }
+        .line{
+            font-size: 24px;
+        }
+        .lines{
+            margin-left: 140px;
+            font-size: 24px;
+        }
+        .last{
+            background-color: orange;
+            width: 190px;
+            height: 60px;
+            border-radius: 30px;
+            padding:1px;
+            margin-left: 170px;
+            text-align: center;
+            color: white;
+        }
+        .last:hover{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="img">
+        <img src="https://assets.nicepagecdn.com/11a8ddce/3790620/images/fresh-salad-with-turkey-eggs-vegetables.jpg" width="550px" style="border-radius: 70px;">
+    </div>
+    <div class="matter">
+        <h1>Fresh Salad</h1>
+    </div>
+    <div class="line">
+        <p>Article evident arrived express highest men did boy. Mistress sensible <br> entirely am so. Quick can manor smart money hopes worth too.<br> Comfort produce husband boy her had hearing. Law others theirs<br> passed  but wishes. You day real less till dear read.</p>
+    </div>
+    <div class="lines">
+        <ul>
+            <li>Tasty, fresh daily</li>
+            <li>We bake real, clean-label</li>
+        </ul>
+    </div>
+    <div class="last">
+        <h3>VIEW PRODUCTS</h3>
+    </div>
+</body>
+</html>
