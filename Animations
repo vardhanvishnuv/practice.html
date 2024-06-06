@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Animatons</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            animation-name: vishnu;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: 8;
+            position: relative
+        }
+        @keyframes vishnu{
+           from{left: 0px;}
+           to{left: 300px;}
+        }
+        .linear{
+            animation-timing-function: linear;
+        }
+        .ease{
+            animation-timing-function: ease;
+        }
+        .ease-in{
+            animation-timing-function: ease-in;
+        }
+        .ease-out{
+            animation-timing-function: ease-out;
+        }
+        .ease-in-out{
+            animation-timing-function: ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <h1>Animations</h1>
+    <div> 
+
+    </div><br>
+    <div class="linear">Linear</div><br>
+    <div class="ease">Ease</div><br>
+    <div class="ease-in">Ease-in</div><br>
+    <div class="ease-out">
+        Ease-Out
+    </div><br>
+    <div class="ease-in-out">Ease-in-out</div>
+</body>
+</html>
