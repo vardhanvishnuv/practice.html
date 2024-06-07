@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>global variables</title>
+</head>
+<body>
+   <script>
+     var c=98;
+    function add(){
+        var a=50;
+        var b=78;
+        var d=-10;
+        var e=c+d;
+        document.write(e);
+    }
+    add();
+   </script>
+</body>
+</html>
