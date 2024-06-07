@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>let variables</title>
+</head>
+<body>
+   <script>
+      let c1=70;
+      function add(){
+        let c1=20;
+        document.write(c1);
+      }
+      add(c1)
+   </script>
+</body>
+</html>
