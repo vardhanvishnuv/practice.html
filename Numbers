@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Number</title>
+</head>
+<body>
+    <script>
+let a=2;
+let b=5.990;
+let c=Infinity;
+let d="vishnu vardhan"
+
+document.write(a);
+document.write(b);
+document.write(c);
+document.write(d);
+
+    </script>
+   
+</body>
+</html>
