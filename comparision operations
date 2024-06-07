@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>comparision operations</title>
+</head>
+<body>
+    <script>
+let a=26;
+let b=55;
+ 
+ document.write(a==b);
+ document.write(a!=b);
+ document.write(a!==b);
+ document.write(a>b);
+ document.write(a<b);
+ document.write(a<=b);
+ document.write(a>=b);
+
+    </script>
+   
+</body>
+</html>
