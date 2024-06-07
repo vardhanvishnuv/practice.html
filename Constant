@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>constant variable method</title>
+</head>
+<body>
+   <script>
+      const a=30;
+      const b=40;
+      document.write(a);
+      document.write(b);
+      document.write(a+b);
+   </script>
+</body>
+</html>
