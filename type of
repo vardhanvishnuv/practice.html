@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Type of </title>
+</head>
+<body>
+    <script>
+var a=20;
+document.write("type of a:" +(typeof a));
+
+var b="vishnu";
+document.write("type of b:"+(typeof b));
+
+var c=" ";
+document.write("type of c:"+(typeof c));
+
+var d=null;
+document.write("type of d:"+(typeof d));
+    </script>
+   
+</body>
+</html>
