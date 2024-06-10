@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> if else statement</title>
+</head>
+<body>
+    <script>
+let value=-1
+if(value>=0){
+    document.write(" positive number")
+}
+else{
+    document.write("negitive number")
+}
+    </script>
+   
+</body>
+</html>
