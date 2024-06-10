@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>else if statement</title>
+    </head>
+    <body>
+        <script>
+   let a=0;
+if(a>1){
+    document.write("positive number")
+}
+else if(a<0){
+    document.write("negitive number")
+}
+else{
+    document.write("zero")
+}
+        </script>
+    
+    </body>
+    </html>
