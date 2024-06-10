@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>if statement</title>
+</head>
+<body>
+    <script>
+let num=2;
+if(num%2==0);{
+    document.write("given number is even number")
+}
+if(num%2!==0){
+    document.write("given number is odd number")
+}
+    </script>
+   
+</body>
+</html>
