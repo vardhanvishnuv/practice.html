@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>loop & continue</title>
+</head>
+<body>
+<h2> loop</h2>
+    <script>
+for (let i = 1; i < 20; i++) {
+    document.write(i);
+}
+
+    </script>
+    <h2>continue method</h2>
+    <script>
+        for (let i = 1; i <= 8; i++) {
+    if (i % 2 === 0) {
+        continue;
+    }
+    document.write(i);
+}
+    </script>
+   
+</body>
+</html>
