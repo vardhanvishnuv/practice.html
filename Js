@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>js</title>
+</head>
+<body>
+
+    <script>
+        const names=['vishnu', 'vardhan', 'vemu'];
+let i=0;
+let len=names.length;
+let name=" ";
+for( ; i<len;){
+name +=names[i];
+i++;
+}
+document.write(name);
+    </script>
+</body>
+</html>
