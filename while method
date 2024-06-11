@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>while & do while</title>
+</head>
+<body>
+<h2> while method</h2>
+    <script>
+let i = 1;
+
+while (i < 100) {
+    document.write(i);
+    i += 2;
+}
+    </script>
+    <h2>do while method</h2>
+    <script>
+        let v = 3;
+do {
+    document.write(v);
+    v--;
+} while (v > 0);
+
+    </script>
+   
+</body>
+</html>
