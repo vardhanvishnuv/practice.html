@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>object methods</title>
+</head>
+<body>
+
+    <script>
+        const person ={
+            name: "vishnu",
+            hobby : "cricket",
+            age : 23
+        };
+        document.write(person);
+    </script><br>
+    <h2>modify object</h2>
+    <script>
+        const persons ={
+            name: "vishnu",
+            hobby : "cricket",
+            age : 23
+        };
+        persons.age ="22"
+        document.write(persons);
+    </script><br>
+    <h2>add object</h2>
+    <script>
+        const person1 ={
+            name: "vishnu",
+            hobby : "cricket",
+            age : 23
+        };
+        person1.height=5.11
+        document.write(person1);
+    </script><br>
+    <h2>delete object</h2>
+    <script>
+        const person2 ={
+            name: "vishnu",
+            hobby : "cricket",
+            age : 23
+        };
+        delete person2.age
+        document.write(person2);
+    </script>
+</body>
+</html>
