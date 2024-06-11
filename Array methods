@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>array</title>
+</head>
+<body>
+    <script>
+let numbers = [100, 30, 4, 60, 80]
+
+document.write(numbers[0]); 
+document.write(numbers[2]);
+    </script><br>
+    <h2>Push method</h2>
+    <script>
+    let cricket = ["bat", "ball"];
+
+cricket.push("wickets");
+document.write(cricket);
+    </script><br>
+    <h2>unshift method</h2>
+    <script>
+        let crickets= ["bat", "ball"];
+    
+    crickets.unshift("wickets");
+    document.write(crickets);
+        </script><br>
+        <h2>index[] method</h2>
+        <script>
+    
+ let cric = [ "bat","ball","wickets"];
+
+cric[2] = "players";
+
+document.write(cric);
+        </script>
+   
+</body>
+</html>
