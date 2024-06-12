@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Date</title>
+   
+</head>
+<body>
+  <script>
+  let date=new Date();
+  let year=date.getYear();
+  let month=date.getMonth();
+  let day=date.getDay();
+  let minute=date.getMinute();
+  let hour=date.getHour();
+  let seconds=date.getSeconds();
+  
+  document.write(date);
+  document.write(year);
+  document.write(month);
+  document.write(day);
+  document.write(seconds);
+  document.write(minute);
+  document.write(hour);
+  </script>
+    
+</body>
+</html>
