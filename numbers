@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Nmubers</title>
+   
+</head>
+<body>
+  <script>
+  let a=674758e8;
+let b=268755e-9;
+document.write(a);
+document.write(b);
+</script><br>
+<script>let c=55555555555;
+  let d=5555555555555555;
+  document.write(c);
+  document.write(d);</script><br>
+<script>let v=1.89+2.89;
+document.write(v);
+</script><br>
+<script>let e=100;
+  let f=3908;
+  document.write(e+f);
+  </script><br>
+<script>let g="453";
+  let h="346457";
+  document.write(g+h);
+  </script><br>
+<script>let i="107896" / "78587"
+document.write(i);
+</script><br>
+<script>let j="6725482"*"7832564";
+document.write(j);
+</script><br>
+<script>let k="762548"-"98364";
+document.write(k);
+</script>    
+</body>
+</html>
