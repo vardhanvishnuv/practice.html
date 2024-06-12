@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>for loop</title>
+</head>
+<body>
+
+    <script>
+ for (let i = 1; i < 6; i++) {
+    document.write(i);
+}
+    </script>
+    <br>
+    <script>
+        for (let x = 1; x <= n; x++) {
+    sum += x; 
+}  
+    document.write(`sum: ${sums}`);
+    </script>
+</body>
+</html>
