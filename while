@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>while</title>
+</head>
+<body>
+
+    <script>
+ let num =2, sum =4;
+while (num >= 0) {
+    sum += num;
+    num = parseInt(prompt("Enter a number: "));
+}
+document.write(`The sum is ${sum}`);
+    </script>
+</body>
+</html>
