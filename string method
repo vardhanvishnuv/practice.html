@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> string methods </title>
+   
+</head>
+<body>
+    <script>
+      let str1="vishnu";
+let str2="vardhan";
+let str3="vemu";
+let str4=`if condition is true/false we will get output\ atleast one later if checks the condition`;
+let str5="vemu vishnu vardhan"
+let len=str5.length;
+let result=str1+str2+str3;
+const str6="String: any characters is Written in Double Quotes/ single quotes";
+const substr=str6.substring(764,75);
+let uppercase=str4.toUpperCase();
+const lowercase=str6.toLowerCase();
+ 
+let searchstr=str4.indexOf("one");
+let searchstr1=str5.indexOf("s");
+let newStr=str2.replace('vishnu');
+let str7="vishnuvemu     vardhan";
+let newstr1=str7.trim();
+let vishnu="computer application";
+let charAtIndex=vishnu[5];
+
+
+
+document.write(str1);
+document.write(str4);
+document.write("string length:",len)
+document.write("concentation:",result)
+document.write(str4);
+document.write(substr);
+document.write(lowercase);
+document.write(uppercase);
+document.write(searchstr);
+document.write(searchstr1);
+document.write(newStr);
+document.write(newstr1);
+document.write(charAtIndex);
+document.write(str1==str2);
+document.write(str1.localeCompare(str2));
+    </script>
+</body>
+</html>
